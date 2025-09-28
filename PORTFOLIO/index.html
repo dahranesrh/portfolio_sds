@@ -1,0 +1,1030 @@
+
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+        <meta name="keywords" content="Document" />
+        <meta name="description" content="Your Description..." />
+        <title>Document</title>
+        <link
+            rel="stylesheet"
+            href="swiper js/swiper-bundle.min.css"
+        />
+        <link
+            rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"
+        />
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
+
+<!-- Swiper JS -->
+<script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+        <link rel="stylesheet" href="loader.css" />
+        <link rel="stylesheet" href="hamburger.css" />
+        <link rel="stylesheet" href="home.css" />
+        <link rel="stylesheet" href="about.css" />
+        <link rel="stylesheet" href="services.css">
+        <link rel="stylesheet" href="portfolio.css" />
+        <link rel="stylesheet" href="blog.css" />
+        <link rel="stylesheet" href="contact.css" />
+        <link href="mapbox-gl.css" rel="stylesheet" />
+        <link rel="stylesheet" href="style.css" />
+        <link
+            rel="shortcut icon"
+            href="img/favicon.ico"
+            type="image/x-icon"
+        />
+    </head>
+    <body onload="loaded()">
+        <div class="loader">
+            <div class="c c1"></div>
+            <div class="c c2"></div>
+            <div class="c c3"></div>
+            <div class="c c4"></div>
+            <div class="c c5"></div>
+            <div class="c c6"></div>
+        </div>
+        <script>
+            let loader = document.querySelector(".loader");
+            function loaded() {
+                loader.classList.add("remove");
+                setTimeout(() => {
+                    loader.style.display = "none";
+                }, 1000);
+            }
+        </script>
+        <!-- HAMBURGER MENU BUTTON (responsively visible) -->
+        <div class="hamburger">
+            <div class="bar1"></div>
+            <div class="bar2"></div>
+            <div class="bar3"></div>
+        </div>
+
+        <!-- THE REAL NAVIGATION -->
+      <!-- THE REAL NAVIGATION -->
+<nav class="navigation">
+    <h1>
+        saadia dahrane
+        <div></div>
+        <div></div>
+    </h1>
+    <ul>
+        <li><a href="#home" onclick="home()">home</a></li>
+        <li>
+            <a href="#about" onclick="about(); animate3.play(); animate4.play();">about</a>
+        </li>
+        <li><a href="#portfolio" onclick="portfolio()">portfolio</a></li>
+        <li>
+            <a href="#contact" onclick="contact(); animate5.play()">contact</a>
+        </li>
+    </ul>
+    <p>&copy; saadia dahrane 2024.</p>
+</nav>
+
+        <div class="container">
+            <div class="layer layer1 active">
+                <div class="home main">
+                    <div class="canvas_container">
+                        <canvas></canvas>
+                    </div>
+                    <div class="content-for-home">
+                        <div class="img-container"></div>
+                        <h1 align="center">Saadia dahrane</h1>
+                        <div class="social-icons">
+                            <div class="s-icon">
+                                <a href="https://www.facebook.com/dahrane.s?mibextid=kFxxJD">
+                                    <i class="fab fa-facebook"
+></i>
+                                </a>
+                                <div class="s-name">Facebook</div>
+                            </div>
+                            <div class="s-icon">
+                                <a href="
+                                https://www.linkedin.com/in/saadia-dahrane-ab60b8272?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app">
+                                    <i class="fab fa-linkedin"></i>
+                                </a>
+                                <div class="s-name">linkedin</div>
+                            </div>
+                            <div class="s-icon">
+                                <a href="https://github.com/dahranesrh">
+                                    <i class="fab fa-github"></i>
+                                </a>
+                                <div class="s-name">GitHub</div>
+                            </div>
+                           
+                            <div class="s-icon">
+                                <a href="https://wa.me/message/4FQQ6YVWO6ZDO1">
+                                    <i class="fab fa-whatsapp"></i>
+                                </a>
+                                <div class="s-name">whatsapp</div>
+                            </div>
+                            <div class="s-icon">
+                                <a href="mailto:s.dahrane.s@gmail.com?subject=Job%20Opportunity&body=Hello%20Saadia,%20I%20would%20like%20to%20discuss%20a%20project%20with%20you.">
+                                    <i class="fas fa-envelope"></i>
+                                </a>
+                                <div class="s-name">Email</div>
+                            </div>
+                        </div>
+
+                       
+
+                        <div class="titles-for-side-nav">
+                            <span></span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+<div class="layer layer2">
+    <div class="about main">
+        <!-- SEGMENT FOR STYLING. -->
+        <div class="styling">
+            <div class="absolute box"></div>
+            <div class="absolute circle"></div>
+            <div class="absolute triangle"></div>
+            <div class="absolute dots">
+                <div class="dot dot1"></div>
+                <div class="dot dot2"></div>
+                <div class="dot dot3"></div>
+                <div class="dot dot4"></div>
+                <div class="dot dot5"></div>
+                <div class="dot dot6"></div>
+                <div class="dot dot7"></div>
+                <div class="dot dot8"></div>
+                <div class="dot dot9"></div>
+                <div class="dot dot10"></div>
+                <div class="dot dot11"></div>
+                <div class="dot dot12"></div>
+                <div class="dot dot13"></div>
+                <div class="dot dot14"></div>
+                <div class="dot dot15"></div>
+                <div class="dot dot16"></div>
+                <div class="dot dot17"></div>
+                <div class="dot dot18"></div>
+                <div class="dot dot19"></div>
+                <div class="dot dot20"></div>
+                <div class="dot dot21"></div>
+                <div class="dot dot22"></div>
+                <div class="dot dot23"></div>
+                <div class="dot dot24"></div>
+            </div>
+
+            <svg
+                class="wave absolute"
+                xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 1450 320"
+            >
+                <path
+                    fill-opacity="1"
+                    d="M0,320L48,277.3C96,235,192,149,288,122.7C384,96,480,128,576,165.3C672,203,768,245,864,234.7C960,224,1056,160,1152,112C1248,64,1344,32,1392,16L1440,0L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"
+                ></path>
+            </svg>
+
+            <svg
+                class="wave absolute opposite"
+                xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 1450 320"
+            >
+                <path
+                    fill-opacity="1"
+                    d="M0,224L48,213.3C96,203,192,181,288,192C384,203,480,245,576,218.7C672,192,768,96,864,64C960,32,1056,64,1152,101.3C1248,139,1344,181,1392,202.7L1440,224L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"
+                ></path>
+            </svg>
+        </div>
+
+        <!-- REAL CONTENT -->
+        <div class="wrapper">
+            <div class="face face1">
+                <div class="content">
+                    <p>Hello,</p>
+                    <h1>I'm Saadia Dahrane</h1>
+                    <div class="text-container">
+                        <p class="text">
+                            Hi there! I'm a passionate software engineer with a strong focus on mobile app development.  
+                            Over the past year, I've been deeply involved in creating engaging and efficient mobile  
+                            applications using Java and Flutter.  
+                            My experience spans various domains, including but not limited to productivity, entertainment, and education.  
+                            My journey into software development began with a keen interest in creating intuitive and user-friendly applications.  
+                            With my expertise in Java and Flutter, I've successfully developed and deployed several mobile applications  
+                            on both Android and iOS platforms, catering to diverse user needs.  
+                            In addition to mobile app development, I also have solid experience in desktop application development.  
+                            Leveraging my proficiency in Java Swing and JavaFX,  
+                            I've built desktop applications with rich graphical user interfaces, providing seamless experiences for end-users.  
+                            Furthermore, my skill set extends to web and mobile app development using Flutter and Firebase.  
+                            I've worked on projects that utilize Flutter's cross-platform capabilities to deliver high-performance applications,  
+                            coupled with Firebase as the backend database solution, ensuring scalability and real-time data synchronization.  
+                            With a year of hands-on experience in the software industry, I've cultivated a problem-solving mindset and a strong ability to adapt to new technologies and frameworks.  
+                            I'm driven by the opportunity to create impactful solutions that enhance user experiences and drive business success.  
+                            Outside of coding, I enjoy staying updated with the latest industry trends, contributing to open-source projects,  
+                            and engaging in continuous learning to sharpen my skills. I'm always excited about new challenges and opportunities to collaborate on innovative projects.  
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="face face2"></div>
+        </div>
+
+        <nav class="about_nav">
+            <ul>
+                <li>
+                    <a class="active" href="#" data-text="one">Skills</a>
+                </li>
+                <li>
+                    <a href="#" data-text="two">Experience</a>
+                </li>
+                <li>
+                    <a href="#" data-text="three">Education</a>
+                </li>
+               <li>
+    <a href="img/resume.pdf" class="button download" download="Saadia_Dahrane_CV.pdf" data-animate="true">
+        Download CV
+    </a>
+</li>
+                <li>
+                    <a class="button hire" href="#" onclick="contact(); animate5.play()">Hire Me</a>
+                </li>
+            </ul>
+        </nav>
+
+        <div class="about_container">
+            <!-- SKILL BOX -->
+            <div class="content-section skills active">
+                <div class="skill">
+                    <div class="name">java</div>
+                    <div class="value" style="left: 70%">70%</div>
+                    <div class="percent">
+                        <div class="progress" style="width: 70%" data-width="70%"></div>
+                    </div>
+                </div>
+                <div class="skill">
+                    <div class="name">dart</div>
+                    <div class="value" style="left: 60%">60%</div>
+                    <div class="percent">
+                        <div class="progress" style="width: 60%" data-width="60%"></div>
+                    </div>
+                </div>
+                <div class="skill">
+                    <div class="name">PYTHON(Django rest api)</div>
+                    <div class="value" style="left: 50%">50%</div>
+                    <div class="percent">
+                        <div class="progress" style="width :50%" data-width="60%"></div>
+                    </div>
+                </div>
+                <div class="skill">
+                    <div class="name">flutter</div>
+                    <div class="value" style="left: 65%">65%</div>
+                    <div class="percent">
+                        <div class="progress" style="width: 65%" data-width="65%"></div>
+                    </div>
+                </div>
+                <div class="skill">
+                    <div class="name">firebase</div>
+                    <div class="value" style="left: 75%">75%</div>
+                    <div class="percent">
+                        <div class="progress" style="width: 75%" data-width="75%"></div>
+                    </div>
+                </div>
+                <div class="skill">
+                    <div class="name">SQL</div>
+                    <div class="value" style="left: 45%">45%</div>
+                    <div class="percent">
+                        <div class="progress" style="width: 45%" data-width="45%"></div>
+                    </div>
+                </div>
+                <div class="skill">
+                    <div class="name">C</div>
+                    <div class="value" style="left: 75%">75%</div>
+                    <div class="percent">
+                        <div class="progress" style="width: 75%" data-width="75%"></div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- EXPERIENCE -->
+            <div class="content-section experience">
+                <div class="middle_line"></div>
+                
+                <div class="whitespace"></div>
+                <div class="whitespace"></div>
+                <div class="cover">
+                    <i class="job_box fas fa-briefcase"></i>
+                    <i class="date">JULY 2024</i>
+                    <h2>Backend Developer – APSEC Startup</h2>
+                    <article class="text_hidden">
+                        Worked as a backend developer using Django, contributing to web application development,
+API design, and database integration.
+                    </article>
+                </div>
+                <div class="cover">
+                    <i class="job_box fas fa-briefcase"></i>
+                    <i class="date">september2023</i>
+                    <h2>native application "cours++"(multi-platforms app)</h2>
+                    <article class="text_hidden">
+                        Courss++ is a pioneering online education platform crafted using Flutter,
+                        designed to offer a seamless learning journey across various platforms. 
+                        It redefines the accessibility and usability of educational courses by presenting a
+                        versatile and intuitive interface accessible across different devices.
+                    </article>
+                </div>
+                <div class="whitespace"></div>
+                <div class="whitespace"></div>
+                <div class="cover">
+                    <i class="job_box fas fa-briefcase"></i>
+                    <i class="date">juin 2022-august2022</i>
+                    <h2>mobile application "westeno"</h2>
+                    <i class="name_company">project of final year </i>
+                    <article class="text_hidden">
+                       This is a mobile application for collecting recyclable items.
+                       This application allows users to donate or sell items they no longer use,
+                       search for items they wish to acquire, and arrange for item pickup using geolocation and a messaging system.
+                       Built with Java and XML, this app facilitates the process of recycling and reusing goods in a convenient and efficient manner.
+                    </article>
+                </div>
+            </div>
+
+            <!-- EDUCATION -->
+            <div class="content-section education">
+                <div class="middle_line"></div>
+               
+                <div class="whitespace"></div>
+                <div class="whitespace"></div>
+
+                 <div class="cover">
+                    <i class="job_box fas fa-book-reader"></i>
+                    <i class="date">2023-2025</i>
+                    <h2>Master degree  Network and Distributed Systems</h2>
+                    <i class="name_company">university of science and technology of oran</i>
+                    <article class="text_hidden">
+                        During my Master's program in Network and Distributed Systems,
+                        I specialized in the study of modeling and simulation,
+                        problem modeling and solving techniques, grid computing,
+                        algorithms for distributed systems, and more. This involved advanced topics such as algorithm design,
+                        problem-solving strategies, and the application of distributed computing principles in networked environments.
+                    </article>
+                </div>
+               
+                <div class="cover">
+                    <i class="job_box fas fa-book-open"></i>
+                    <i class="date">2022-2023 </i>
+                    <h2>licence in computer science  in spicilisté systéme d'information</h2>
+                    <i class="name_company">university of science and technology of oran</i>
+                    <article class="text_hidden">
+                       During this specialization, we delved into various aspects of software engineering, 
+                       covering requirements specification, UML diagramming, desktop application development using Java,
+                       user interface design with Figma, user experience considerations, mobile app development with Java,
+                       artificial intelligence with Python, startup development strategies, and more.
+                    </article>
+                </div>
+                <div class="whitespace"></div>
+                <div class="whitespace"></div>
+                <div class="cover">
+                    <i class="job_box fas fa-book-open"></i>
+                    <i class="date">2018-2019</i>
+                    <h2>Bachelor In Mathematics</h2>
+                    <i class="name_company"> EL HADJ MOHAMED BEN AMROU ELTEMAR hight school oran algeria.</i>
+                    <article class="text_hidden">
+                       I obtained my Bachelor's degree in Mathematics in 2019 
+                       with a distinction of "good," achieving a mean score of 15.29/20.
+                    </article>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+           <!-- <div class="layer layer3">
+                <div class="services main">
+                     <section class="background">
+                        <div class="bg_wrapper"></div>
+                    </section> 
+                    <div class="hero">
+                        <span class="typography">
+                            <span class="t_dummy">We know how to</span> <br />
+                            <span class="t-box">
+                                <span class="box-side box-front"
+                                    >take risk</span
+                                >
+                                <span class="box-side box-top"
+                                    >take a side</span
+                                >
+                                <span class="box-side box-back"
+                                    >be different</span
+                                >
+                                <span class="box-side box-bottom"
+                                    >be innovative</span
+                                >
+                            </span>
+                        </span>
+                        <p class="hero-text">
+                            Shuvro is an excellent web designer and faultless
+                            technician. He’s a pleasure to work with, great
+                            value for money and will always go the extra mile
+                            when necessary.
+                        </p>
+                    </div>
+                    <div class="capabilities left move-little-down">
+                        <img src="resources/img/elements/web_bg.png" alt="" />
+                        <p class="c_content">
+                            <span class="c_title">Web</span>
+                            His creative journey started with Web Design. To
+                            code his own designs, he learned how to code and has
+                            since then worked hard to stay relevant in both
+                            fields. For smooth collaboration with clients he is
+                            now-a-days using programing languages for designing
+                            and prototyping.
+                            <br />
+                            <a href="#">Learn More</a>
+                            <i class="far fa-arrow-alt-circle-right"></i>
+                        </p>
+                    </div>
+                    <div class="capabilities right">
+                        <p class="c_content">
+                            <span class="c_title">Graphics</span>
+                            With a designers eye for details, Shuvro is
+                            passionate about implementing designed into highly
+                            interactive experience by paying close attention to
+                            details, animations and performances.
+                            <br />
+                            <a href="#">Learn More</a>
+                            <i class="far fa-arrow-alt-circle-right"></i>
+                        </p>
+                        <img
+                            src="resources/img/elements/graphics_bg.png"
+                            alt=""
+                        />
+                    </div>
+                    <div class="capabilities left">
+                        <img
+                            src="resources/img/elements/seo_bg.png"
+                            alt=""
+                            style="
+                                background: #2929292f;
+                                backdrop-filter: blur(4px);
+                                border-radius: 40px;
+                            "
+                        />
+                        <p class="c_content">
+                            <span class="c_title">SEO</span>
+                            With 1+ years of experience in the Digital industry,
+                            he proved that the combination of strategic thinking
+                            and expertise will create a fascinating digital
+                            experience.
+                            <br />
+                            <a href="#">Learn More</a>
+                            <i class="far fa-arrow-alt-circle-right"></i>
+                        </p>
+                    </div>
+                    <div class="foot">
+                        <h2>Works:</h2>
+                        <div class="foot-link">
+                            <a href="#" onclick="portfolio()">Profile World</a>
+                            <i class="far fa-arrow-alt-circle-right"></i>
+                            <img
+                                src="img/portfolios/app/2.jpg"
+                                alt="portfolio"
+                            />
+                        </div>
+                        <div class="foot-link">
+                            <a href="#" onclick="portfolio()">Art Director</a>
+                            <i class="far fa-arrow-alt-circle-right"></i>
+                            <img
+                                src="img/portfolios/card/2.jpg"
+                                alt="portfolio"
+                            />
+                        </div>
+                        <div class="foot-link">
+                            <a href="#" onclick="portfolio()">podcast desktop app</a>
+                            <i class="far fa-arrow-alt-circle-right"></i>
+                            <img
+                                src="img/accuiellpodcast.jpg"
+                                alt="portfolio"
+                            />
+                        </div>
+                    </div>
+                </div>
+            </div>
+          
+		-->
+		   
+		
+
+<div class="layer layer4">
+    <div class="portfolio main">
+      <div class="allContent">
+        <button class="exitButton">&times;</button>
+        <div class="project-slider">
+
+
+
+
+
+
+
+
+            
+          <!-- Poultry Farm -->
+          <div class="project">
+            <div class="swiper-container" id="slider_poultry">
+              <div class="swiper-wrapper">
+                <div class="swiper-slide"><img src="img/projects/poultry_app/1.PNG" alt=""></div>
+                <div class="swiper-slide"><img src="img/projects/poultry_app/2.PNG" alt=""></div>
+                <div class="swiper-slide"><img src="img/projects/poultry_app/3.PNG" alt=""></div>
+
+                <div class="swiper-slide"><img src="img/projects/poultry_app/4.PNG" alt=""></div>
+                <div class="swiper-slide"><img src="img/projects/poultry_app/5.PNG" alt=""></div>
+               
+                <div class="swiper-slide"><img src="img/projects/poultry_app/7.PNG" alt=""></div>
+                <div class="swiper-slide"><img src="img/projects/poultry_app/8.PNG" alt=""></div>
+              </div>
+              <div class="swiper-button-next"></div>
+              <div class="swiper-button-prev"></div>
+              <div class="swiper-pagination"></div>
+            </div>
+            <div class="project-details">
+              <h1>IoT Smart Poultry Farm Platform</h1>
+              <p>Category: IoT + Machine Learning+FLUTTER+FIREBASE</p>
+              <h2>Project Brief:</h2>
+              <p>Designed and implemented a smart poultry farming solution integrating ESP32, DHT11, soil moisture sensor, ultrasonic food-level detection, servo-controlled feeders, automated/manual irrigation, and fan control. Connected to Firebase for real-time monitoring and anomaly detection.</p>
+              <p><b>Date:</b> 2025</p>
+              <p><b>Client:</b> Master Thesis</p>
+            </div>
+          </div>
+  
+        
+        
+  
+          <!-- Incident Management -->
+          <div class="project">
+            <div class="swiper-container" id="slider_incident">
+              <div class="swiper-wrapper">
+                <div class="swiper-slide"><img src="img/projects/incident/1.PNG" alt=""></div>
+                <div class="swiper-slide"><img src="img/projects/incident/2.PNG" alt=""></div>
+              </div>
+              <div class="swiper-button-next"></div>
+              <div class="swiper-button-prev"></div>
+              <div class="swiper-pagination"></div>
+            </div>
+            <div class="project-details">
+              <h1>Incident Management Platform</h1>
+              <p>Category: Django + PostgreSQL</p>
+              <h2>Project Brief:</h2>
+              <p>Developed a scalable incident management solution with backend services in Django and PostgreSQL. Supports both web and mobile clients.</p>
+              <p><b>Date:</b> 2024</p>
+              <p><b>Client:</b> Industrial Client </p>
+            </div>
+          </div>
+  
+          <!-- Education -->
+          <div class="project">
+            <div class="swiper-container" id="slider_education">
+              <div class="swiper-wrapper">
+                <div class="swiper-slide"><img src="img/projects/education/1.png" alt=""></div>
+                <div class="swiper-slide"><img src="img/projects/education/2.png" alt=""></div>
+                <div class="swiper-slide"><img src="img/projects/education/3.png" alt=""></div>
+                <div class="swiper-slide"><img src="img/projects/education/4.png" alt=""></div>
+                <div class="swiper-slide"><img src="img/projects/education/5.png" alt=""></div>
+                <div class="swiper-slide"><img src="img/projects/education/6.png" alt=""></div>
+              
+              </div>
+              <div class="swiper-button-next"></div>
+              <div class="swiper-button-prev"></div>
+              <div class="swiper-pagination"></div>
+            </div>
+            <div class="project-details">
+              <h1>Online Education Platform</h1>
+              <p>Category: Startup Project</p>
+              <h2>Project Brief:</h2>
+              <p>Concept and implementation of an Algerian platform to provide remote learning with teacher–student interaction and multi-language support in Flutter.</p>
+              <p><b>Date:</b> 2023</p>
+              <p><b>Client:</b> Personal Startup</p>
+            </div>
+          </div>
+  
+          <!-- Waste Management -->
+          <div class="project">
+            <div class="swiper-container" id="slider_waste">
+              <div class="swiper-wrapper">
+                <div class="swiper-slide"><img src="img/projects/waste/1.jpg"  alt=""></div>
+                <div class="swiper-slide"><img src="img/projects/waste/2.jpg" alt=""></div>
+                <div class="swiper-slide"><img src="img/projects/waste/3.jpg" alt=""></div>
+                <div class="swiper-slide"><img src="img/projects/waste/4.jpg" alt=""></div>
+                <div class="swiper-slide"><img src="img/projects/waste/6.jpg" alt=""></div>
+                <div class="swiper-slide"><img src="img/projects/waste/7.jpg" alt=""></div>
+                <div class="swiper-slide"><img src="img/projects/waste/8.jpg" alt=""></div>
+                <div class="swiper-slide"><img src="img/projects/waste/9.jpg" alt=""></div>
+                <div class="swiper-slide"><img src="img/projects/waste/10.jpg" alt=""></div>
+                <div class="swiper-slide"><img src="img/projects/waste/11.jpg" alt=""></div>
+                <div class="swiper-slide"><img src="img/projects/waste/12.jpg" alt=""></div>
+
+              </div>
+              <div class="swiper-button-next"></div>
+              <div class="swiper-button-prev"></div>
+              <div class="swiper-pagination"></div>
+            </div>
+            <div class="project-details">
+              <h1>Waste Management Application</h1>
+              <p>Category: Java + Firebase</p>
+              <h2>Project Brief:</h2>
+              <p>Mobile app for waste management with backend logic, database design, and Firebase integration to optimize collection and monitoring.</p>
+              <p><b>Date:</b> 2022</p>
+              <p><b>Client:</b> University Project</p>
+            </div>
+          </div>
+  
+          <!-- Irrigation -->
+          <div class="project">
+            <div class="swiper-container" id="slider_irrigation">
+              <div class="swiper-wrapper">
+                <div class="swiper-slide"><img src="img/projects/irrigation/1.jpg" alt=""></div>
+                <div class="swiper-slide"><img src="img/projects/irrigation/2.jpg" alt=""></div>
+               
+              </div>
+              <div class="swiper-button-next"></div>
+              <div class="swiper-button-prev"></div>
+              <div class="swiper-pagination"></div>
+            </div>
+            <div class="project-details">
+              <h1>Smart Irrigation System</h1>
+              <p>Category: IoT + Firebase</p>
+              <h2>Project Brief:</h2>
+              <p>Automated irrigation system using ESP32 and soil moisture sensors. Connected to Firebase for real-time alerts and manual/automatic control.</p>
+              <p><b>Date:</b> 2020</p>
+              <p><b>Client:</b> University Project</p>
+            </div>
+          </div>
+  
+          <!-- Design Project -->
+          <div class="project">
+            <div class="swiper-container" id="slider_design">
+              <div class="swiper-wrapper">
+                <div class="swiper-slide"><img src="img/projects/design/1.png" alt=""></div>
+                <div class="swiper-slide"><img src="img/projects/design/2.png" alt=""></div>
+                <div class="swiper-slide"><img src="img/projects/design/3.png" alt=""></div>
+                <div class="swiper-slide"><img src="img/projects/design/4.png" alt=""></div>
+                <div class="swiper-slide"><img src="img/projects/design/5.png" alt=""></div>
+                <div class="swiper-slide"><img src="img/projects/design/6.png" alt=""></div>
+                <div class="swiper-slide"><img src="img/projects/design/7.png" alt=""></div>
+                <div class="swiper-slide"><img src="img/projects/design/8.png" alt=""></div>
+              </div>
+              <div class="swiper-button-next"></div>
+              <div class="swiper-button-prev"></div>
+              <div class="swiper-pagination"></div>
+            </div>
+            <div class="project-details">
+              <h1>Ask & Answer Desktop App</h1>
+              <p>Category: Desktop App Design UI</p>
+              <h2>Project Brief:</h2>
+              <p>The desktop application is designed specifically for developers, and its user interface (UI) and user experience (UX) have been crafted using the Figma design tool.</p>
+              <p><b>Date:</b> 2021</p>
+              <p><b>Client:</b> University Design Project</p>
+            </div>
+          </div>
+  
+        </div>
+      </div>
+    </div>
+  </div>
+  
+  
+
+
+
+           <!-- <div class="layer layer5">
+                <div class="testimonial">
+                    <h1>
+                        <span>See What My Clients Say about Me.</span>
+                    </h1>
+                    <div class="swiper-container">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide">
+                                <img src="resources/img/favicon.ico" alt="" />
+                                <h4>Erik Lasher</h4>
+                                <div class="rating">
+                                    <label>&starf;</label>
+                                    <label>&starf;</label>
+                                    <label>&starf;</label>
+                                    <label>&starf;</label>
+                                    <label>&starf;</label>
+                                </div>
+                                <p>
+                                    <span>&ldquo;</span>
+                                    Shuvro is an excellent web designer and
+                                    faultless technician. He’s a pleasure to
+                                    work with, great value for money and will
+                                    always go the extra mile when necessary.
+                                </p>
+                            </div>
+                            <div class="swiper-slide">
+                                <img src="resources/img/favicon.ico" alt="" />
+                                <h4>Erik Lasher</h4>
+                                <div class="rating">
+                                    <label>&starf;</label>
+                                    <label>&starf;</label>
+                                    <label>&starf;</label>
+                                    <label>&starf;</label>
+                                    <label>&starf;</label>
+                                </div>
+                                <p>
+                                    <span>&ldquo;</span>
+                                    Shuvro is an excellent web designer and
+                                    faultless technician. He’s a pleasure to
+                                    work with, great value for money and will
+                                    always go the extra mile when necessary.
+                                </p>
+                            </div>
+                            <div class="swiper-slide">
+                                <img src="resources/img/favicon.ico" alt="" />
+                                <h4>Erik Lasher</h4>
+                                <div class="rating">
+                                    <label>&starf;</label>
+                                    <label>&starf;</label>
+                                    <label>&starf;</label>
+                                    <label>&starf;</label>
+                                    <label>&starf;</label>
+                                </div>
+                                <p>
+                                    <span>&ldquo;</span>
+                                    Shuvro is an excellent web designer and
+                                    faultless technician. He’s a pleasure to
+                                    work with, great value for money and will
+                                    always go the extra mile when necessary.
+                                </p>
+                            </div>
+                            <div class="swiper-slide">
+                                <img src="resources/img/favicon.ico" alt="" />
+                                <h4>Erik Lasher</h4>
+                                <div class="rating">
+                                    <label>&starf;</label>
+                                    <label>&starf;</label>
+                                    <label>&starf;</label>
+                                    <label>&starf;</label>
+                                    <label>&starf;</label>
+                                </div>
+                                <p>
+                                    <span>&ldquo;</span>
+                                    Shuvro is an excellent web designer and
+                                    faultless technician. He’s a pleasure to
+                                    work with, great value for money and will
+                                    always go the extra mile when necessary.
+                                </p>
+                            </div>
+                            <div class="swiper-slide">
+                                <img src="resources/img/favicon.ico" alt="" />
+                                <h4>Erik Lasher</h4>
+                                <div class="rating">
+                                    <label>&starf;</label>
+                                    <label>&starf;</label>
+                                    <label>&starf;</label>
+                                    <label>&starf;</label>
+                                    <label>&starf;</label>
+                                </div>
+                                <p>
+                                    <span>&ldquo;</span>
+                                    Shuvro is an excellent web designer and
+                                    faultless technician. He’s a pleasure to
+                                    work with, great value for money and will
+                                    always go the extra mile when necessary.
+                                </p>
+                            </div>
+                            <div class="swiper-slide">
+                                <img src="resources/img/favicon.ico" alt="" />
+                                <h4>Erik Lasher</h4>
+                                <div class="rating">
+                                    <label>&starf;</label>
+                                    <label>&starf;</label>
+                                    <label>&starf;</label>
+                                    <label>&starf;</label>
+                                    <label>&starf;</label>
+                                </div>
+                                <p>
+                                    <span>&ldquo;</span>
+                                    Shuvro is an excellent web designer and
+                                    faultless technician. He’s a pleasure to
+                                    work with, great value for money and will
+                                    always go the extra mile when necessary.
+                                </p>
+                            </div>
+                        </div>
+                       
+                        <div class="swiper-pagination"></div>
+                        <div class="swiper-button-next"></div>
+                        <div class="swiper-button-prev"></div>
+                    </div>
+                </div>
+            </div>
+            -->
+            <div class="layer layer6">
+                <div class="contact_us">
+                    <div id="map"></div>
+                    <address class="info_container">
+                        <div class="info info1">
+                            <i class="fas fa-phone-alt"></i>
+                            <span class="iname">Phone</span>
+                            <a href="tel:++213656529515">+213656529515</a>
+                            
+                        </div>
+                        <div class="info info2">
+                            <i class="fas fa-home"></i>
+                            <span class="iname">Address</span>
+                            <a
+                                href=""
+                            >
+                                <h3>cooprative djondi el madjhoul hai khmisti </h3>
+                                <span>  bir el djir oran</span><br />
+                                <span> algeria</span>
+                            </a>
+                        </div>
+                        <div class="info info3">
+                            <i class="fas fa-envelope"></i>
+                            <span class="iname">Email</span>
+                            <a href="s.dahrane.s@gmail.com"
+                                >s.dahrane.s@gmail.com</a
+                            >
+                           
+                        </div>
+                    </address>
+
+                   <form action="mailto:s.dahrane.s@gmail.com" method="post" enctype="text/plain">
+    <h1>Get In Touch</h1>
+    <div class="inp_field">
+        <i class="fas fa-user"></i>
+        <input
+            type="text"
+            name="name"
+            class="fname"
+            id="fname"
+            placeholder="Full Name"
+            required
+        />
+    </div>
+    <div class="inp_field">
+        <i class="fas fa-envelope"></i>
+        <input
+            type="email"
+            name="email"
+            class="email"
+            id="email"
+            placeholder="Email"
+            required
+        />
+    </div>
+    <div class="inp_field">
+        <i class="fas fa-angle-double-right"></i>
+        <input
+            type="text"
+            name="subject"
+            class="subject"
+            id="subject"
+            placeholder="Subject"
+            required
+        />
+    </div>
+    <textarea
+        name="message"
+        cols="30"
+        rows="5"
+        class="message"
+        id="message"
+        placeholder="Message"
+        required
+    ></textarea>
+    <button type="submit" class="submit" id="submit">Send Message</button>
+</form>
+                </div>
+            </div>
+        </div>
+<script src="script.js"></script>
+        <!-----------------JQUERY {https://jquery.com/} [USED IN portfolio.js]----------------->
+        <script src="js/jquery.min.js"></script>
+        <!-----------------MIX IT UP {https://www.kunkalabs.com/mixitup/} [USED IN portfolio.js]----------------->
+        <script src="js/mixitup.min.js"></script>
+        <!-----------------SWIPER JS {https://swiperjs.com/} [USED IN portfolio.js, blog.js]----------------->
+        <script src="swiper js/swiper-bundle.min.js"></script>
+        <!-----------------MAPBOX GL {https://www.mapbox.com/} [USED IN contact.js]----------------->
+        <script src="mapbox-gl/mapbox-gl.js"></script>
+        <!-----------------EMAIL JS {https://www.emailjs.com/} [USED IN contact.js]----------------->
+        <script src="js/email.min.js"></script>
+        <!-----------------ADDITIONAL SCRIPT FOR EMAIL JS----------------->
+        <script type="text/javascript">
+            (function () {
+                emailjs.init("user_5OMETIDQ2Nm9qBMtaFNz4");
+            })();
+        </script>
+        <!-----------------VANILLA TILT JS {https://micku7zu.github.io/vanilla-tilt.js/}----------------->
+        <script src="js/vanilla-tilt.min.js"></script>
+        <!-----------------ANIME JS {https://animejs.com/} [USED LOCALLY.]----------------->
+        <script src="js/anime.min.js"></script>
+        <!-----------------LOCAL (HOME)----------------->
+        <script src="js/home.js"></script>
+        <!-----------------LOCAL (ABOUT)----------------->
+        <script src="js/about.js"></script>
+        <!-----------------LOCAL (SERVICES)----------------->
+        <script src="js/services.js"></script>
+        <!-----------------LOCAL (PORTFOLIO)----------------->
+        <script src="js/portfolio.js"></script>
+        <!-----------------LOCAL (BLOG)----------------->
+        <script src="js/blog.js"></script>
+        <!-----------------LOCAL (CONTACT)----------------->
+        <script src="js/contact.js"></script>
+        <!-----------------LOCAL (MAIN FILE)----------------->
+        <script src="js/main.js"></script>
+
+        <!-----------------LOCAL (MAIN FILE { USED TO ANIMATE WEBPAGE.})----------------->
+        <script>
+            const animate1 = anime.timeline({
+                targets: ".circle",
+                loop: true,
+                duration: 2000,
+                direction: "alternate",
+                easing: "easeInOutQuad",
+            });
+            animate1.add({
+                translateX: 350,
+            });
+
+            let dot = document.querySelectorAll(".dot");
+            for (let i = 0; i < dot.length; i++) {
+                const ind = dot[i];
+                const animate2 = anime.timeline({
+                    targets: ind,
+                    loop: true,
+                    direction: "alternate",
+                    delay: i * 100,
+                });
+                animate2.add({
+                    scale: 2,
+                });
+            }
+
+            let span = document.querySelectorAll(".content .text span");
+            const animate3 = anime.timeline({
+                targets: span,
+                easing: "easeInOutExpo",
+                delay: anime.stagger(20, { direction: "reverse" }),
+                direction: "reverse",
+                autoplay: false,
+            });
+
+            animate3.add({
+                rotate: () => {
+                    return anime.random(-360, 360);
+                },
+                translateX: () => {
+                    return anime.random(-500, 500);
+                },
+                translateY: () => {
+                    return anime.random(-500, 500);
+                },
+                duration: 3000,
+            });
+
+            const animate4 = anime({
+                targets: ".button",
+                scale: [0, 1],
+                delay: anime.stagger(200, { start: 7000 }),
+                autoplay: false,
+            });
+
+            const animate5 = anime({
+                targets: [
+                    document.querySelectorAll(".info"),
+                    document.querySelectorAll(".inp_field"),
+                    ".message",
+                    ".submit",
+                ],
+                translateY: [50, 0],
+                rotateX: [90, 0],
+                opacity: [0, 1],
+                delay: anime.stagger(300, { start: 1000 }),
+                duration: 750,
+                autoplay: false,
+                easing: "easeOutQuint",
+            });
+            
+            const animate6 = anime({
+                targets: ['.services .t_dummy', '.services .hero-text'],
+                duration: 1000,
+                scaleX: [0, 1],
+                delay: anime.stagger(300, {start: 1000}),
+                autoplay: false,
+            });
+
+            function resize() {
+                if (window.innerWidth <= 632) {
+                    animate5.play();
+                    animate3.play();
+                    animate4.play();
+                    animate6.play();
+                }
+            }
+            resize();
+            window.addEventListener("resize", resize);
+        </script>
+    </body>
+</html>
+
+    
+
+  
+
+
